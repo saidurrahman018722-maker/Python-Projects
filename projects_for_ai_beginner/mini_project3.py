@@ -63,3 +63,6 @@ def weekday_pattern(df):
 
 
 weekday_pattern(df)
+
+
+df.to_csv(r"D:\Backend\Learning Python\projects_for_ai_beginner\csv_project_3.csv", index=False)
